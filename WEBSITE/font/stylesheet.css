@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Lovely Home';
+    src: url('../font/LovelyHome.eot');
+    src: url('../font/LovelyHome.eot?#iefix') format('embedded-opentype'),
+        url('../font/LovelyHome.woff2') format('woff2'),
+        url('../font/LovelyHome.woff') format('woff'),
+        url('../font/LovelyHome.ttf') format('truetype'),
+        url('../font/LovelyHome.svg#LovelyHome') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

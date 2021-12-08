@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <html>
+
+    <head>
+        <title>Page Title</title>
+    </head>
+
+    <body>
+      <style>
+        h1{
+        color:black;
+        }
+      </style>
+      
+      <h1>
+      	Grocery List
+      </h1>
+   <ul type="disc" id="ul">
+     <li id="d">Frozen food </li>
+     <li>Salad Dressing</li>
+     <li>Canned Goods</li>
+      </ul>
+      <button onClick="f()">ADD</button>&nbsp<buutton onClick="f1()">Remove</button>
+      </body>
+      <script>
+        function f()
+        {
+        var x=document.getElementById("ul");
+        var item=document.createElement("li");
+        var node=document.createTextNode("Cereals");
+        item.appendChild(node);
+        x.append(item);
+        }
+        function f1()
+        {
+        var x=document.getElementById("ul");
+        x.removeChild(x.childNodes[0]);
+        }
+        function f2()
+        {
+        var x= document.getElementById("ul");
+        var child=document.getElementById("d");
+        var item=document.createElement("li");
+        var node=document.createTextNode(Pasta);
+        item.appendChild(Node);
+        x.replaceChild(node);
+        x.replaceChild(item,child);
+        }
+      </script>
+</html>

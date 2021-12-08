@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="font/stylesheet.css" rel="stylesheet">
+    <link href="slick/slick.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!--- Start Header Section --->
+		<div class="container">
+			<div class="header-1">
+				<div class="mob-icon"><img src="img/site-logo.png"></div>
+				<div class="logo">
+					<h1>Hanging closet</h1>
+				</div>
+				<div class="icons">
+					<ul>
+						<li>
+						<a href="#"><img src="img/header/search.png"></a>
+						</li>
+						<li>
+							<a href="#"><img src="img/header/admin.png"></a>
+						</li>
+						<li>
+							<a href="#"><img src="img/header/cart.png"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div><!--- End Header Section=-->
+		<!--- Start header menu secrtion=-->
+		<div class="container">
+			<div class="header-menu">
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li class="dropdown-user">
+						
+						<div class="dropdown">
+							<ul>
+								
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="featuredcollection.html" target="blank" >Featured Collection</a>
+					</li>
+					<li>
+						<a href="blog.html" target="blank" >Blog</a>
+					</li>
+                    <li>
+						<a href="contactus.html" target="blank">Contact Us</a>
+					</li>
+					
+					<li>
+						<a href="about-us.html">About Us</a>
+					</li>
+				</ul>
+			</div>
+        </div>
+        <!--- End header menu section=-->
+        <!--- Start About Us Section --->
+        <div class="aboutus">
+            <div class="bg-section full">
+                <div class="container">
+                    <div class="main-section">
+                        <h1>Contact Us</h1>
+                        <div class="input-section ">
+                        <div class="first-section ">
+                               <p>we would really appreciate if you would leave a message 
+								   in the message section or if you have any quarry please let us know,
+								   It will  be really great if you will join our mailing list.
+                                </p>
+                        </div>
+                        <div class="second-section">  
+                            <form id="contact">
+                                <input id="input-form" placeholder="Your name" type="text" required>
+                          
+                                <input id="input-form" placeholder="Your Email Address" type="email" required>
+                            
+                                <input id="input-form" placeholder="Your Phone Number" type="tel" required>
+                            
+                                <textarea id="input-form" placeholder="Type your Message Here...."  required></textarea>
+                           
+							<button name="submit" type="submit" id="contact-submit" onclick="submitForm()" >Submit</button>
+							<script>
+								function submitForm() {
+								document.contact-form.submit();
+								document.contact-form.reset();
+								}
+							</script>
+							 </form>
+                          </div>
+                       </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--- End About Us Section --->
+</body>
+</html>
